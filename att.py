@@ -10,12 +10,12 @@ def addStudent(name):
     student_record.append(newStudent)
 
 
-def addAbsent(name):
-    newStudent = {
-        "name" : name,
-        "isPresent" : "no"
-    }
-    absent_list.append(newStudent)
+# def addAbsent(name):
+#     newStudent = {
+#         "name" : name,
+#         "isPresent" : "no"
+#     }
+#     absent_list.append(newStudent)
 
 
 teacher_name = input("Enter your name: ")
